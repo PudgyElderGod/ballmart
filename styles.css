@@ -1,0 +1,40 @@
+
+.carousel .carousel-inner {
+    /* height: 300px; */
+}
+
+.carousel-item {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-text {
+    text-align: center;
+    color: white;
+}
+
+.moss-bg {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.moss-bg:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://i0.wp.com/news.algaeworld.org/wp-content/uploads/2018/05/Illegal-moss-balls-brought-into-NZ-by-artist-have-potential-to-ruin-lakes-and-rivers-judge.jpg?fit=672%2C372&ssl=1g");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
